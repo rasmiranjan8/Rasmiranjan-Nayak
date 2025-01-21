@@ -5,7 +5,7 @@ import {
   FaReact,
   FaNodeJs,
   FaDatabase,
-} from "react-icons/fa"; // Importing icons
+} from "react-icons/fa";
 
 const AboutMe = () => {
   return (
@@ -20,13 +20,9 @@ const AboutMe = () => {
 
         <div className="text-md md:text-lg leading-relaxed space-y-8 font-serif tracking-wide font-playfair">
           <p className="font-medium">
-            
-            
-            <p className="mt-4">
-              I am a passionate full-stack web developer dedicated to building
-              efficient, scalable, and user-friendly applications. I specialize
-              in front-end technologies like:
-            </p>
+            I am a passionate full-stack web developer dedicated to building
+            efficient, scalable, and user-friendly applications. I specialize in
+            front-end technologies like:
           </p>
 
           {/* Front-end Technologies */}
