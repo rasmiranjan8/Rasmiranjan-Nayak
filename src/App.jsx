@@ -5,7 +5,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Welcome from "./components/Welcome";
 import NavBar from "./components/NavBar";
-import Certifications from "./components/Certifications";
+
 import Education from "./components/Education";
 
 const App = () => {
