@@ -52,15 +52,26 @@ const Projects = ({ projects }) => {
 
           {/* Buttons */}
           <div className="flex space-x-4 mt-4">
-            <a
-              href={project.githublink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-center border p-2 rounded-lg bg-gradient-to-r from-blue-500 to-blue-700 text-white"
-            >
-              View GitHub
-            </a>
-            
+            <button>
+              <a
+                href={project.githublink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center border p-2 rounded-lg bg-blue-600 hover:bg-blue-800 text-white"
+              >
+                View GitHub
+              </a>
+            </button>
+            <button>
+              <a
+                href={project.previewLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center border p-2 rounded-lg bg-gradient-to-r from-blue-500 to-blue-700 text-white"
+              >
+                view Preview
+              </a>
+            </button>
           </div>
         </div>
       </div>

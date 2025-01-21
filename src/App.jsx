@@ -8,7 +8,6 @@ import NavBar from "./components/NavBar";
 import Certifications from "./components/Certifications";
 import Education from "./components/Education";
 
-
 const App = () => {
   const projects = [
     {
@@ -32,6 +31,16 @@ const App = () => {
       catagory: "Significant Projects",
       involved: "Team Project",
       used: "SIH 2024",
+    },
+    {
+      name: "Tic Tac Toe Game",
+      githublink: "https://github.com/rasmiranjan8/tic-tac-toe-game.git",
+      pic: "./tic_tac_toe.png",
+      description:
+        "Built a Tic Tac Toe game with React and Tailwind CSS, featuring options to play in 3x3, 4x4, and 5x5 grids, enhancing both logic and interactive UI design.",
+      type: "frontend",
+      catagory: "Learning Projects",
+      involved: "self project",
     },
     {
       name: "Simon Game",
@@ -62,6 +71,29 @@ const App = () => {
       type: "frontend",
       catagory: "Learning Projects",
       involved: "self project",
+    },
+    {
+      name: "Furniture Website",
+      githublink:
+        "https://github.com/rasmiranjan8/maa-bhattarika-furniture.git",
+      pic: "./furniture.png",
+      description:
+        "Developed a furniture website with the integration of WhatsApp API to enable direct messaging upon item selection, streamlining communication for our own business.",
+      type: "frontend and backend",
+      catagory: "Significant Projects",
+      involved: "self project",
+      used: "For our own business",
+    },
+    {
+      name: "Alumni Connect Website",
+      githublink: "https://github.com/rasmiranjan8/code-surgeons.git",
+      pic: "./alumni_connect.png",
+      description:
+        "Developed a fully functional alumni connect website for BIT Sindri using React and Tailwind CSS, designed to foster networking among alumni, and created for participation in Nexus 3.0.",
+      type: "frontend",
+      catagory: "Significant Projects",
+      involved: "Group Project",
+      used: "Nexus 3.0",
     },
   ];
 
@@ -126,11 +158,12 @@ const App = () => {
       <Education />
       <Projects projects={projects} />
       <Skills skills={skills} />
-      <Certifications />
+      
       <Contact />
       <footer className="bg-gray-800 text-white py-4 text-center">
         <p>
-          &copy; {new Date().getFullYear()} Rasmiranjan Nayak. All rights reserved.
+          &copy; {new Date().getFullYear()} Rasmiranjan Nayak. All rights
+          reserved.
         </p>
       </footer>
     </div>

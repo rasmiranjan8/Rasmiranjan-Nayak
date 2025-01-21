@@ -20,10 +20,10 @@ const AboutMe = () => {
 
         <div className="text-md md:text-lg leading-relaxed space-y-8 font-serif tracking-wide font-playfair">
           <p className="font-medium">
-            I'm <b className="text-green-400">Rasmiranjan Nayak,</b>
-            <br />
+            
+            
             <p className="mt-4">
-              A passionate full-stack web developer dedicated to building
+              I am a passionate full-stack web developer dedicated to building
               efficient, scalable, and user-friendly applications. I specialize
               in front-end technologies like:
             </p>
