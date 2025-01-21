@@ -1,10 +1,11 @@
 module.exports = {
   content: [
-    './index.html',           // Add this if your project includes an HTML file
-    './src/**/*.{js,jsx,ts,tsx}', // All JavaScript, TypeScript, and JSX files in your src directory
+    "./index.html", // Ensure this matches your HTML file location
+    "./src/**/*.{js,jsx,ts,tsx}", // Include all React files
+    "./public/**/*.html", // Add this if you have additional HTML files in the public folder
   ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
